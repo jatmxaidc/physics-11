@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Lecture Board — Units & Measurement</title>
+    <link rel="stylesheet" href="/static/lecture.css" />
+  </head>
+  <body>
+    <div class="board-app">
+      <header class="board-header">
+        <div class="board-brand">
+          <div class="board-logo">O</div>
+          <div>
+            <strong>Orbit Lecture Board</strong>
+            <span>Physical Quantities · SI Units · Conversion</span>
+          </div>
+        </div>
+        <div class="board-actions">
+          <span class="slide-counter" id="slide-counter">1 / 10</span>
+          <button class="tool-button" id="notes-toggle" title="Teacher cues">Cues</button>
+          <button class="tool-button" id="fullscreen-button" title="Fullscreen">Fullscreen</button>
+          <a class="tool-button" href="/" title="Return to study app">Study app</a>
+        </div>
+      </header>
+
+      <main class="board-main">
+        <aside class="slide-rail" id="slide-rail"></aside>
+
+        <section class="stage-wrap">
+          <div class="stage" id="stage">
+            <div class="slide-layer" id="slide-layer"></div>
+            <canvas id="draw-canvas"></canvas>
+          </div>
+
+          <div class="presenter-controls">
+            <button class="nav-button" id="prev-slide">← Previous</button>
+            <div class="progress-track"><span id="slide-progress"></span></div>
+            <button class="nav-button primary" id="next-slide">Next →</button>
+          </div>
+        </section>
+
+        <aside class="teacher-cues" id="teacher-cues">
+          <div class="cue-head">
+            <div>
+              <span>Presenter cues</span>
+              <strong id="cue-title">Opening hook</strong>
+            </div>
+            <button class="close-cues" id="close-cues">×</button>
+          </div>
+          <div class="cue-time" id="cue-time">4 minutes</div>
+          <div class="cue-body" id="cue-body"></div>
+        </aside>
+      </main>
+
+      <footer class="whiteboard-tools">
+        <div class="tool-group">
+          <button class="draw-tool active" data-tool="pointer">Pointer</button>
+          <button class="draw-tool" data-tool="pen">Pen</button>
+          <button class="draw-tool" data-tool="highlighter">Highlight</button>
+          <button class="draw-tool" data-tool="eraser">Eraser</button>
+        </div>
+        <div class="tool-divider"></div>
+        <div class="color-group">
+          <button class="color-swatch active" data-color="#101820" style="--swatch:#101820" aria-label="Black"></button>
+          <button class="color-swatch" data-color="#1769e0" style="--swatch:#1769e0" aria-label="Blue"></button>
+          <button class="color-swatch" data-color="#e64444" style="--swatch:#e64444" aria-label="Red"></button>
+          <button class="color-swatch" data-color="#138a59" style="--swatch:#138a59" aria-label="Green"></button>
+        </div>
+        <div class="tool-divider"></div>
+        <button class="draw-tool" id="undo-button">Undo</button>
+        <button class="draw-tool danger" id="clear-button">Clear board</button>
+        <span class="keyboard-hint">Arrow keys: slides · P: pen · E: eraser</span>
+      </footer>
+    </div>
+
+    <script src="/static/lecture.js"></script>
+  </body>
+</html>

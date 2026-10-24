@@ -1,0 +1,11 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env*.local
+pw slides/WhatsApp Installer.exe

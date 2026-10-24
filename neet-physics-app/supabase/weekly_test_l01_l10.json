@@ -1,0 +1,220 @@
+{
+  "title": "Weekly Test 02",
+  "lectureNumber": 10,
+  "durationMinutes": 75,
+  "marksPerQuestion": 2,
+  "instructions": "Answer all questions carefully. 30 MCQs, 2 marks each (60 marks). Duration 75 minutes. One attempt. Use radian measure unless a degree is written.",
+  "dueAt": "2026-09-27T18:30:00+00:00",
+  "questions": [
+    {
+      "topic": "L01 ratios",
+      "prompt": "In △ABC, ∠B = 90°. If tan A = 5/12, then sin A + cos A equals",
+      "options": ["17/13", "17/12", "7/13", "12/5"],
+      "correctIndex": 0,
+      "explanation": "Opposite = 5, adjacent = 12, hypotenuse = 13. So sin A = 5/13, cos A = 12/13 and their sum is 17/13."
+    },
+    {
+      "topic": "L01 identities",
+      "prompt": "If sec θ − tan θ = 1/2, then sec θ + tan θ equals",
+      "options": ["1/2", "1", "2", "4"],
+      "correctIndex": 2,
+      "explanation": "(sec θ − tan θ)(sec θ + tan θ) = sec²θ − tan²θ = 1. Therefore sec θ + tan θ = 1/(1/2) = 2."
+    },
+    {
+      "topic": "L01 identities",
+      "prompt": "If sin θ + cos θ = √2, then tan θ + cot θ equals",
+      "options": ["1", "2", "√2", "0"],
+      "correctIndex": 1,
+      "explanation": "Square: 1 + sin 2θ = 2 ⇒ sin 2θ = 1 ⇒ θ = π/4 (acute). Then tan θ + cot θ = 1 + 1 = 2."
+    },
+    {
+      "topic": "L02 ASTC",
+      "prompt": "The value of sin 510° · cos 330° − cos 390° · sin 150° is",
+      "options": ["0", "1/2", "√3/2", "−1/2"],
+      "correctIndex": 0,
+      "explanation": "sin 510° = sin 150° = 1/2, cos 330° = √3/2, cos 390° = cos 30° = √3/2. So (1/2)(√3/2) − (√3/2)(1/2) = 0."
+    },
+    {
+      "topic": "L02 ASTC",
+      "prompt": "The value of cos(−1410°) is",
+      "options": ["1/2", "−1/2", "√3/2", "−√3/2"],
+      "correctIndex": 2,
+      "explanation": "cos is even, so cos(−1410°) = cos 1410°. 1410° = 3 × 360° + 330°, and cos 330° = √3/2."
+    },
+    {
+      "topic": "L02 radian",
+      "prompt": "An arc of a circle of radius 21 cm subtends 60° at the centre. The length of the arc is",
+      "options": ["7π cm", "11π cm", "14π cm", "22π cm"],
+      "correctIndex": 0,
+      "explanation": "60° = π/3 rad. Arc length = rθ = 21 × (π/3) = 7π cm."
+    },
+    {
+      "topic": "L02 height",
+      "prompt": "The angle of elevation of a tower from a point A is 30°. From a point B, 20 m closer to the tower on the same horizontal line, the elevation is 60°. The height of the tower is",
+      "options": ["10√3 m", "20√3 m", "10 m", "20 m"],
+      "correctIndex": 0,
+      "explanation": "h/x = 1/√3 and h/(x − 20) = √3. Solving gives h = 10√3 m."
+    },
+    {
+      "topic": "L03 compound",
+      "prompt": "If sin(A + B) = 1 and cos(A − B) = √3/2 with 0 < A, B < π/2, then A equals",
+      "options": ["π/3", "π/4", "π/6", "π/2"],
+      "correctIndex": 0,
+      "explanation": "A + B = π/2 and A − B = π/6. Adding: 2A = 2π/3 ⇒ A = π/3."
+    },
+    {
+      "topic": "L03 double",
+      "prompt": "If tan θ = 1/2, then (2 tan θ)/(1 − tan² θ) equals",
+      "options": ["4/3", "3/4", "1", "4"],
+      "correctIndex": 0,
+      "explanation": "This expression is tan 2θ = 2(1/2)/(1 − 1/4) = 1/(3/4) = 4/3."
+    },
+    {
+      "topic": "L03 small angle",
+      "prompt": "A circular disc of radius 10 cm subtends 0.04 rad at the eye. Using the small-angle approximation, the diameter of the disc as seen is about",
+      "options": ["0.2 cm", "0.4 cm", "2 cm", "4 cm"],
+      "correctIndex": 1,
+      "explanation": "For small θ, θ ≈ (diameter)/distance. Here distance = 10 cm, θ = 0.04 ⇒ diameter ≈ 0.4 cm."
+    },
+    {
+      "topic": "L04 max-min",
+      "prompt": "The maximum value of 5 sin θ + 12 cos θ − 7 is",
+      "options": ["6", "13", "20", "−7"],
+      "correctIndex": 0,
+      "explanation": "Max of 5 sin θ + 12 cos θ is √(25+144) = 13. Hence maximum of the expression is 13 − 7 = 6."
+    },
+    {
+      "topic": "L04 max-min",
+      "prompt": "The range of f(θ) = 2 + 3 sin θ + 4 cos θ is",
+      "options": ["[−3, 7]", "[−5, 5]", "[2, 7]", "[−1, 5]"],
+      "correctIndex": 0,
+      "explanation": "3 sin θ + 4 cos θ lies in [−5, 5], so f lies in [2 − 5, 2 + 5] = [−3, 7]."
+    },
+    {
+      "topic": "L04 phase",
+      "prompt": "A particle has coordinates x = 3 cos(ωt) and y = 4 sin(ωt). Its maximum distance from the origin is",
+      "options": ["3", "4", "5", "7"],
+      "correctIndex": 1,
+      "explanation": "x²/9 + y²/16 = 1 (ellipse). Distance from origin is largest along the major axis, length 4."
+    },
+    {
+      "topic": "L05 phase",
+      "prompt": "y₁ = 4 sin(ωt) and y₂ = 3 sin(ωt + π/2). The amplitude of y₁ + y₂ is",
+      "options": ["5", "7", "1", "√7"],
+      "correctIndex": 0,
+      "explanation": "Phase difference = π/2, so resultant amplitude = √(4² + 3²) = 5."
+    },
+    {
+      "topic": "L05 AP",
+      "prompt": "If the pth, qth and rth terms of an A.P. are a, b and c respectively, then a(q − r) + b(r − p) + c(p − q) equals",
+      "options": ["0", "1", "a + b + c", "pqr"],
+      "correctIndex": 0,
+      "explanation": "Write a = A+(p−1)D etc. The expression cancels identically to 0."
+    },
+    {
+      "topic": "L06 AP",
+      "prompt": "The sum of n terms of an A.P. is 3n² + 5n. Its 10th term is",
+      "options": ["32", "59", "62", "65"],
+      "correctIndex": 2,
+      "explanation": "Tₙ = Sₙ − Sₙ₋₁. T₁₀ = S₁₀ − S₉ = 350 − 288 = 62."
+    },
+    {
+      "topic": "L06 GP",
+      "prompt": "In a G.P., the 3rd term is 24 and the 6th term is 192. The first term is",
+      "options": ["3", "6", "8", "12"],
+      "correctIndex": 1,
+      "explanation": "ar² = 24 and ar⁵ = 192 ⇒ r³ = 8 ⇒ r = 2. Then a · 4 = 24 ⇒ a = 6."
+    },
+    {
+      "topic": "L07 GP",
+      "prompt": "A ball rebounds to 4/5 of the height from which it falls. If it falls from 10 m, the total distance travelled before coming to rest is",
+      "options": ["50 m", "90 m", "100 m", "18 m"],
+      "correctIndex": 1,
+      "explanation": "Total distance = 10 + 2·10·(4/5)/(1−4/5) = 10 + 80 = 90 m."
+    },
+    {
+      "topic": "L06 straight line",
+      "prompt": "The lines 2x − 3y + 6 = 0 and 4x − 6y − 5 = 0 are",
+      "options": ["coincident", "intersecting at one point", "parallel and distinct", "perpendicular"],
+      "correctIndex": 2,
+      "explanation": "Both have slope 2/3, but are not scalar multiples of each other (constants do not match), so parallel and distinct."
+    },
+    {
+      "topic": "L07 straight line",
+      "prompt": "The equation of the line through (2, −3) and parallel to 3x + 4y − 7 = 0 is",
+      "options": ["3x + 4y + 6 = 0", "3x + 4y − 6 = 0", "4x − 3y − 17 = 0", "3x − 4y + 6 = 0"],
+      "correctIndex": 0,
+      "explanation": "Parallel line: 3x + 4y + k = 0. Using (2, −3): 6 − 12 + k = 0 ⇒ k = 6."
+    },
+    {
+      "topic": "L08 graphs",
+      "prompt": "A particle starts from rest with constant acceleration and covers 8 m in the first 2 s. Distance covered in the next 2 s is",
+      "options": ["8 m", "16 m", "24 m", "32 m"],
+      "correctIndex": 2,
+      "explanation": "8 = ½ a (2)² ⇒ a = 4 m/s². In 4 s, s = 32 m. So next 2 s cover 32 − 8 = 24 m."
+    },
+    {
+      "topic": "L08 graphs",
+      "prompt": "On a straight-line v–t graph, velocity falls from 10 m/s to 0 in 5 s. Displacement in this interval is",
+      "options": ["10 m", "25 m", "50 m", "0 m"],
+      "correctIndex": 1,
+      "explanation": "Displacement = area of triangle = ½ × 5 × 10 = 25 m."
+    },
+    {
+      "topic": "L08 graphs",
+      "prompt": "If a = −2 m/s² (constant) and initial velocity is +10 m/s, the particle comes to rest after",
+      "options": ["2 s", "5 s", "10 s", "20 s"],
+      "correctIndex": 1,
+      "explanation": "0 = 10 + (−2)t ⇒ t = 5 s."
+    },
+    {
+      "topic": "L09 circle",
+      "prompt": "For the circle x² + y² − 4x + 6y − 3 = 0, the centre and radius are",
+      "options": ["(2, −3), 4", "(−2, 3), 4", "(2, −3), 2", "(2, 3), 4"],
+      "correctIndex": 0,
+      "explanation": "Centre = (2, −3), radius = √(4 + 9 + 3) = √16 = 4."
+    },
+    {
+      "topic": "L09 ellipse",
+      "prompt": "For the ellipse x²/16 + y²/9 = 1, the distance between the foci is",
+      "options": ["√7", "2√7", "5", "√5"],
+      "correctIndex": 1,
+      "explanation": "a = 4, b = 3 ⇒ e = √(1 − 9/16) = √7/4. Distance between foci = 2ae = 2√7."
+    },
+    {
+      "topic": "L09 exponential",
+      "prompt": "If y = e^{3x} + e^{−3x}, then d²y/dx² − 9y equals",
+      "options": ["0", "18e^{3x}", "−18e^{−3x}", "9"],
+      "correctIndex": 0,
+      "explanation": "y″ = 9e^{3x} + 9e^{−3x} = 9y, so y″ − 9y = 0."
+    },
+    {
+      "topic": "L09 differentiation",
+      "prompt": "If y = √(2x + 3), then dy/dx at x = 3 equals",
+      "options": ["1/√3", "1/√9", "1/3", "√3"],
+      "correctIndex": 2,
+      "explanation": "dy/dx = 1/√(2x + 3). At x = 3 this is 1/√9 = 1/3."
+    },
+    {
+      "topic": "L10 rate of change",
+      "prompt": "The volume of a sphere increases at 4π cm³/s when the radius is 2 cm. The rate of increase of the radius is",
+      "options": ["1/4 cm/s", "1/2 cm/s", "1 cm/s", "2 cm/s"],
+      "correctIndex": 0,
+      "explanation": "dV/dt = 4πr² dr/dt. So 4π = 4π(4) dr/dt ⇒ dr/dt = 1/4 cm/s."
+    },
+    {
+      "topic": "L10 differentiation",
+      "prompt": "If y = (x² + 1)/(x² − 1) with |x| ≠ 1, then dy/dx equals",
+      "options": ["−4x/(x² − 1)²", "4x/(x² − 1)²", "−2x/(x² − 1)²", "2x/(x² − 1)"],
+      "correctIndex": 0,
+      "explanation": "By the quotient rule the numerator becomes (x²−1)2x − (x²+1)2x = −4x."
+    },
+    {
+      "topic": "L10 product / chain",
+      "prompt": "If y = sin(x²), then dy/dx equals",
+      "options": ["cos(x²)", "2x cos(x²)", "2x sin(x²)", "cos(2x)"],
+      "correctIndex": 1,
+      "explanation": "Chain rule: cos(x²) · 2x = 2x cos(x²)."
+    }
+  ]
+}

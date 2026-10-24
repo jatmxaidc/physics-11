@@ -1,0 +1,215 @@
+{
+  "title": "Lecture 11 daily quiz",
+  "instructions": "Answer all 28 questions from Lecture 11. Each question carries one mark. You may resubmit before the deadline.",
+  "lectureNumber": 11,
+  "durationMinutes": 45,
+  "dueAt": "2026-09-19T14:30:00.000Z",
+  "questions": [
+    {
+      "prompt": "For y = 4x³ − 5x² + 2x − 7, find dy/dx.",
+      "topic": "Differentiation",
+      "options": ["12x² − 10x + 2", "12x² − 5x + 2", "4x² − 10x + 2", "12x³ − 10x² + 2"],
+      "correctIndex": 0,
+      "explanation": "Differentiate term by term to obtain 12x² − 10x + 2."
+    },
+    {
+      "prompt": "Differentiate y = tan x · logₑx.",
+      "topic": "Product rule",
+      "options": ["sec²x/x", "tan x/x + logₑx · sec²x", "tan x · sec²x/x", "logₑx/x + tan x · sec²x"],
+      "correctIndex": 1,
+      "explanation": "Using (AB)′ = AB′ + BA′ gives tan x/x + logₑx · sec²x."
+    },
+    {
+      "prompt": "If y = A/x³ − B/x⁴, find x for which dy/dx = 0.",
+      "topic": "Stationary points",
+      "options": ["3A/(4B)", "4A/(3B)", "4B/(3A)", "3B/(4A)"],
+      "correctIndex": 2,
+      "explanation": "dy/dx = −3Ax⁻⁴ + 4Bx⁻⁵. Setting it to zero gives x = 4B/(3A)."
+    },
+    {
+      "prompt": "Differentiate y = eˣ/x², where x ≠ 0.",
+      "topic": "Quotient rule",
+      "options": ["eˣ(x − 2)/x³", "eˣ(x + 2)/x³", "eˣ(x − 2)/x²", "eˣ/x³"],
+      "correctIndex": 0,
+      "explanation": "The quotient rule gives [x²eˣ − 2xeˣ]/x⁴ = eˣ(x − 2)/x³."
+    },
+    {
+      "prompt": "Differentiate y = (x² − 1)/(x² + 1).",
+      "topic": "Quotient rule",
+      "options": ["2x/(x² + 1)", "4x/(x² + 1)²", "4x²/(x² + 1)²", "−4x/(x² + 1)²"],
+      "correctIndex": 1,
+      "explanation": "The quotient-rule numerator simplifies to 4x, giving 4x/(x² + 1)²."
+    },
+    {
+      "prompt": "Differentiate y = cos x + 2/x³, where x ≠ 0.",
+      "topic": "Mixed differentiation",
+      "options": ["sin x + 6/x⁴", "−sin x + 6/x⁴", "−sin x − 6/x⁴", "cos x − 6/x³"],
+      "correctIndex": 2,
+      "explanation": "Write 2/x³ as 2x⁻³. Therefore dy/dx = −sin x − 6/x⁴."
+    },
+    {
+      "prompt": "Differentiate y = (√x + 1/√x)² for x > 0.",
+      "topic": "Simplification",
+      "options": ["1 + 1/x²", "1 − 1/x²", "2 − 2/x²", "1 − 2/x"],
+      "correctIndex": 1,
+      "explanation": "Expand first: y = x + 2 + 1/x. Hence dy/dx = 1 − 1/x²."
+    },
+    {
+      "prompt": "For y = x³ − 5x + x², find dy/dx at x = 1.",
+      "topic": "Slope",
+      "options": ["−2", "0", "2", "5"],
+      "correctIndex": 1,
+      "explanation": "dy/dx = 3x² − 5 + 2x. At x = 1 this is 3 − 5 + 2 = 0."
+    },
+    {
+      "prompt": "For y = 4x³ + 3sin x − 4eˣ, which set gives the first four derivatives correctly?",
+      "topic": "Higher derivatives",
+      "options": [
+        "12x²+3cos x−4eˣ; 24x−3sin x−4eˣ; 24−3cos x−4eˣ; 3sin x−4eˣ",
+        "12x²−3cos x−4eˣ; 24x+3sin x−4eˣ; 24+3cos x−4eˣ; −3sin x−4eˣ",
+        "12x²+3sin x−4eˣ; 24x+3cos x−4eˣ; 24−3sin x−4eˣ; −3cos x−4eˣ",
+        "12x²+3cos x+4eˣ; 24x−3sin x+4eˣ; 24−3cos x+4eˣ; 3sin x+4eˣ"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiate repeatedly; the exponential remains eˣ and the sine/cosine derivatives cycle."
+    },
+    {
+      "prompt": "For y = x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6, find d⁴y/dx⁴.",
+      "topic": "Higher derivatives",
+      "options": ["60x² + 48x + 18", "120x + 48", "120", "20x³ + 24x² + 18x + 8"],
+      "correctIndex": 1,
+      "explanation": "Successive derivatives give d³y/dx³ = 60x² + 48x + 18 and d⁴y/dx⁴ = 120x + 48."
+    },
+    {
+      "prompt": "Differentiate y = sin(2x³ + 4).",
+      "topic": "Chain rule",
+      "options": ["6x²cos(2x³+4)", "2x²cos(2x³+4)", "6x²sin(2x³+4)", "cos(6x²)"],
+      "correctIndex": 0,
+      "explanation": "Outer derivative is cosine and the inner derivative is 6x²."
+    },
+    {
+      "prompt": "Differentiate y = eˣ².",
+      "topic": "Chain rule",
+      "options": ["eˣ²", "x eˣ²", "2x eˣ²", "2eˣ"],
+      "correctIndex": 2,
+      "explanation": "For eᵘ, multiply eᵘ by du/dx. Here u = x², so du/dx = 2x."
+    },
+    {
+      "prompt": "Differentiate y = eˢⁱⁿˣ.",
+      "topic": "Chain rule",
+      "options": ["eˢⁱⁿˣ sin x", "eˢⁱⁿˣ cos x", "eᶜᵒˢˣ", "cos x"],
+      "correctIndex": 1,
+      "explanation": "The derivative of the inner function sin x is cos x."
+    },
+    {
+      "prompt": "Differentiate y = (x² + 2x)³.",
+      "topic": "Chain rule",
+      "options": ["3(x²+2x)²", "3(x²+2x)²(2x+2)", "(2x+2)³", "6x(x²+2x)"],
+      "correctIndex": 1,
+      "explanation": "Differentiate the outer cube, then multiply by the inner derivative 2x + 2."
+    },
+    {
+      "prompt": "Differentiate y = (2x + 3)⁵.",
+      "topic": "Chain rule",
+      "options": ["5(2x+3)⁴", "10(2x+3)⁴", "10(2x+3)⁵", "5(2x+3)⁶"],
+      "correctIndex": 1,
+      "explanation": "The outer derivative is 5(2x+3)⁴ and the inner derivative is 2."
+    },
+    {
+      "prompt": "Differentiate y = logₑ(sin x).",
+      "topic": "Chain rule",
+      "options": ["tan x", "cot x", "1/sin x", "cos x"],
+      "correctIndex": 1,
+      "explanation": "dy/dx = cos x/sin x = cot x."
+    },
+    {
+      "prompt": "Differentiate y = sin(logₑx), where x > 0.",
+      "topic": "Chain rule",
+      "options": ["cos(logₑx)", "cos(logₑx)/x", "sin(logₑx)/x", "cos x/logₑx"],
+      "correctIndex": 1,
+      "explanation": "Differentiate sine, then multiply by d(logₑx)/dx = 1/x."
+    },
+    {
+      "prompt": "Differentiate y = √(x + 4), where x > −4.",
+      "topic": "Chain rule",
+      "options": ["1/√(x+4)", "1/[2√(x+4)]", "2√(x+4)", "√(x+4)/2"],
+      "correctIndex": 1,
+      "explanation": "Write y = (x+4)¹ᐟ² and apply the power rule."
+    },
+    {
+      "prompt": "Differentiate y = sin²x.",
+      "topic": "Chain rule",
+      "options": ["2sin x", "2cos x", "2sin x cos x", "cos²x"],
+      "correctIndex": 2,
+      "explanation": "Treat y as (sin x)². Its derivative is 2sin x cos x = sin 2x."
+    },
+    {
+      "prompt": "Differentiate y = eˢⁱⁿ⁽ˣ³⁾.",
+      "topic": "Nested chain rule",
+      "options": ["eˢⁱⁿ⁽ˣ³⁾cos(x³)", "3x²eˢⁱⁿ⁽ˣ³⁾cos(x³)", "3x²eᶜᵒˢ⁽ˣ³⁾", "eˣ³sin(x³)"],
+      "correctIndex": 1,
+      "explanation": "Apply the chain rule twice: exponential, sine, then x³."
+    },
+    {
+      "prompt": "For V = x²y²z⁴, find ∂V/∂x, ∂V/∂y and ∂V/∂z.",
+      "topic": "Partial differentiation",
+      "options": [
+        "2xy²z⁴, 2x²yz⁴, 4x²y²z³",
+        "2xyz⁴, 2x²yz³, 4x²y²z⁴",
+        "x²y²z⁴, x²y²z⁴, x²y²z⁴",
+        "2xy²z³, 2x²yz³, 4xy²z³"
+      ],
+      "correctIndex": 0,
+      "explanation": "Differentiate one variable at a time while holding the other two constant."
+    },
+    {
+      "prompt": "If y = 2t³ + 1 and x = t², find dy/dx.",
+      "topic": "Parametric differentiation",
+      "options": ["2t", "3t", "6t", "3t²"],
+      "correctIndex": 1,
+      "explanation": "dy/dx = (dy/dt)/(dx/dt) = 6t²/(2t) = 3t for t ≠ 0."
+    },
+    {
+      "prompt": "If y = sin u and u = 3x, find dx/dy.",
+      "topic": "Reciprocal derivative",
+      "options": ["3cos(3x)", "1/[3cos(3x)]", "3sin(3x)", "1/[3sin(3x)]"],
+      "correctIndex": 1,
+      "explanation": "dy/dx = 3cos(3x), so dx/dy is its reciprocal."
+    },
+    {
+      "prompt": "Find the slope of y = 3x² + 5x − 4 at x = 1.",
+      "topic": "Slope",
+      "options": ["6", "8", "11", "14"],
+      "correctIndex": 2,
+      "explanation": "dy/dx = 6x + 5. At x = 1, the slope is 11."
+    },
+    {
+      "prompt": "Differentiate y = A cos(kx), where A and k are constants.",
+      "topic": "Chain rule",
+      "options": ["−A sin(kx)", "−Ak sin(kx)", "Ak cos(kx)", "A sin(kx)/k"],
+      "correctIndex": 1,
+      "explanation": "Differentiate cosine and multiply by the inner derivative k."
+    },
+    {
+      "prompt": "Differentiate y = 5e³ˣ.",
+      "topic": "Chain rule",
+      "options": ["5e³ˣ", "15e³ˣ", "3e⁵ˣ", "15xe³ˣ"],
+      "correctIndex": 1,
+      "explanation": "The constant 5 remains outside and d(e³ˣ)/dx = 3e³ˣ."
+    },
+    {
+      "prompt": "Differentiate y = e⁻ˣ.",
+      "topic": "Chain rule",
+      "options": ["e⁻ˣ", "−e⁻ˣ", "−xe⁻ˣ", "eˣ"],
+      "correctIndex": 1,
+      "explanation": "The inner derivative of −x is −1, so dy/dx = −e⁻ˣ."
+    },
+    {
+      "prompt": "Differentiate y = 3sin(x² + 2).",
+      "topic": "Chain rule",
+      "options": ["3cos(x²+2)", "6xcos(x²+2)", "6xsin(x²+2)", "3xcos(x²+2)"],
+      "correctIndex": 1,
+      "explanation": "Keep 3 outside, differentiate sine, and multiply by d(x²+2)/dx = 2x."
+    }
+  ]
+}
